@@ -2,16 +2,8 @@ $(function() {
 
 });
 
-angular.module('powerdd', ['ngCookies']);
-    function CookieCtrl($scope, $cookieStore) {
-      $scope.lastVal = $cookieStore.get('auth');
-
-	  console.log($cookieStore.get('auth'));
-
-	  $cookieStore.put('auth', 'dddd');
-
-      $scope.changeTab = function(tabName){
-          $scope.lastVal = tabName;
-          $cookieStore.put('tab', tabName);
-      };
-    }
+var myApp = angular.module('powerdd', ['ngCookies']);
+myApp.controller('MyController', ['$scope', '$cookies', '$cookieStore', '$window', function($scope, $cookies, $cookieStore, $window) {
+	$cookieStore.put('fruit', 'Apple');
+	console.log( $cookieStore.get('fruit') );
+}]);
