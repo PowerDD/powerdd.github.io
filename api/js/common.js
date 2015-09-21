@@ -1,9 +1,6 @@
 $(function() {
 
 
-
-});
-
 angular.module("MyAPP",[],function($locationProvider){
     $locationProvider.html5Mode(true);
 });
@@ -14,3 +11,5 @@ function MainController($location){
 	console.log(path);
 
 }
+
+});
