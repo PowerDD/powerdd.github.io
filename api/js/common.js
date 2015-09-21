@@ -1,3 +1,8 @@
 $(function() {
-	console.log('Hello World');
+
+	var path = $location.path();
+
+	console.log(path);
+
+
 });
