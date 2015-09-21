@@ -1,1 +1,0 @@
-# powerdd.github.io
