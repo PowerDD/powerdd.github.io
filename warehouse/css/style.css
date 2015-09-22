@@ -1,0 +1,58 @@
+@import url(fonts/thsarabunnew.css);
+@import url(fonts/th_niramit_as.css);
+
+body{ font-family: 'THSarabunNew', sans-serif; font-size: 1.7em; line-height: 1.7em; background-color:#474747; height: 100%; color:#fff }
+/*html { height: 100%; overflow: hidden; }*/
+#top { background-color:#222; height:40px; line-height: 40px; color: white; width: 100%; font-weight:bold }
+#footer { position: fixed; bottom: 0; background-color:#222; height:40px; line-height: 40px; color: white; width: 100%; font-weight:bold }
+
+.padding-top-5 { padding-top:5px }
+.padding-left-5 { padding-left:5px }
+.padding-left-10 { padding-left:10px }
+.padding-left-15 { padding-left:15px }
+.padding-right-5 { padding-right:5px }
+.padding-right-10 { padding-right:10px }
+.padding-right-15 { padding-right:15px }
+.margin-top-0 { margin-top:0px }
+.margin-top-5 { margin-top:5px }
+.margin-bottom-0 { margin-bottom:0px }
+
+.zone { background-color:#3b3b3b; 
+	border-top:1px solid #5d5d5d; 
+	border-left:1px solid #5d5d5d;
+	border-bottom:1px solid #1b1b1b; 
+	border-right:1px solid #1b1b1b; 
+	/*border-top:1px solid #1b1b1b; 
+	border-left:1px solid #1b1b1b;
+	border-bottom:1px solid #5d5d5d; 
+	border-right:1px solid #5d5d5d; 
+	/*border-radius:2px;
+	margin:5px 5px 0 5px;*/
+	text-align:center;
+	padding:10px;
+	color:#c2c2c2;
+	font-size: 26px;
+}
+
+.zone h1 { font-family: 'THNiramitAS'; font-size: 42px; font-weight:bold; color:white; margin-top:0px; text-shadow: 0 0 5px #fff }
+
+.zone h1.active { text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px #228DFF,
+               0 0 35px #228DFF,
+               0 0 40px #228DFF,
+               0 0 50px #228DFF,
+               0 0 75px #228DFF;
+}
+
+.zone .progress {
+	background-color:#2e2e2e;
+	border-radius:0 !important;
+	border-top:1px solid #1b1b1b; 
+	border-left:1px solid #1b1b1b;
+	border-bottom:1px solid #5d5d5d; 
+	border-right:1px solid #5d5d5d; 
+}
+.zone .no-progress { background-color:#3b3b3b; }
+.zone .detail b { color:white; margin-right:3px }
