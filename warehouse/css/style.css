@@ -46,6 +46,16 @@ body{ font-family: 'THSarabunNew', sans-serif; font-size: 1.7em; line-height: 1.
                0 0 75px #228DFF;
 }
 
+.zone h1.danger { text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px #ff3c22,
+               0 0 35px #ff3c22,
+               0 0 40px #ff3c22,
+               0 0 50px #ff3c22,
+               0 0 75px #ff3c22;
+}
+
 .zone .progress {
 	background-color:#2e2e2e;
 	border-radius:0 !important;
