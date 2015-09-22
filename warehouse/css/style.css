@@ -56,6 +56,16 @@ body{ font-family: 'THSarabunNew', sans-serif; font-size: 1.7em; line-height: 1.
                0 0 75px #ff3c22;
 }
 
+.zone h1.success { text-shadow: 0 0 5px #fff,
+               0 0 10px #fff,
+               0 0 15px #fff,
+               0 0 20px #01d40b,
+               0 0 35px #01d40b,
+               0 0 40px #01d40b,
+               0 0 50px #01d40b,
+               0 0 75px #01d40b;
+}
+
 .zone .progress {
 	background-color:#2e2e2e;
 	border-radius:0 !important;
